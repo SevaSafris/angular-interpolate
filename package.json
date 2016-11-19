@@ -1,0 +1,39 @@
+{
+  "name": "angular-interpolate",
+  "version": "1.0.1",
+  "description": "Recursively interpolate variables in strings.",
+  "main": "angular-interpolate.js",
+  "scripts": {
+    "build": "cp src/angular-interpolate.js dist && ./node_modules/uglify-js/bin/uglifyjs src/angular-interpolate.js --compress -o dist/angular-interpolate.min.js --source-map dist/angular-interpolate.min.js.map",
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SevaSafris/angular-interpolate.git"
+  },
+  "keywords": [
+    "angular",
+    "interpolate",
+    "recursive"
+  ],
+  "author": "Seva Safris <seva@safris.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SevaSafris/angular-interpolate/issues"
+  },
+  "homepage": "https://github.com/SevaSafris/angular-interpolate",
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-junit-reporter": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.1",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "uglify-js": "^2.7.4"
+  },
+  "dependencies": {
+    "angular": "^1.4.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "angular-interpolate",
+  "homepage": "https://github.com/SevaSafris/angular-interpolate",
+  "authors": [
+    "Seva Safris <seva@safris.org>"
+  ],
+  "description": "Recursively interpolate variables in strings.",
+  "main": "angular-interpolate.js",
+  "keywords": [
+    "angular",
+    "interpolate",
+    "recursive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "test"
+  ]
+}
