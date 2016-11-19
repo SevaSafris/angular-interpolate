@@ -15,5 +15,8 @@
   "ignore": [
     "node_modules",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.4.0"
+  }
 }

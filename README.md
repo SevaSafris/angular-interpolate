@@ -1,13 +1,13 @@
 # angular-interpolate
 
-[![MIT License][license_image]][license_url] [![NPM version][npm_version_image]][npm_url]
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 
 This Angular module is a light-weight interpolator that replaces delimited keys in a string
 with values from a properties map. This module was created as a simple alternative for Angular"s
 $interpolate provider. A common use of this tool is for a template interpolation use-case that
 does not require $parse, $interpolate, or $compile.
 
-_[Comments and Issues][issues]_
+_[Comments and Issues](https://github.com/SevaSafris/angular-interpolate/issues)_
 
 ## Installation
 
@@ -23,7 +23,7 @@ bower install --save angular-interpolate
 
 #### Manual
 ```html
-<script src="path/to/directory/dist/angular-interpolate.js"></script>
+<script src="path/to/directory/angular-interpolate.js"></script>
 ```
 
 ## Dependencies
@@ -82,4 +82,4 @@ The `Interpolate` function accepts two additional parameters: `open` and `close`
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details

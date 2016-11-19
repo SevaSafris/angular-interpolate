@@ -1,10 +1,10 @@
 {
   "name": "angular-interpolate",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Recursively interpolate variables in strings.",
   "main": "angular-interpolate.js",
   "scripts": {
-    "build": "cp src/angular-interpolate.js dist && ./node_modules/uglify-js/bin/uglifyjs src/angular-interpolate.js --compress -o dist/angular-interpolate.min.js --source-map dist/angular-interpolate.min.js.map",
+    "build": "./node_modules/uglify-js/bin/uglifyjs angular-interpolate.js --compress -o angular-interpolate.min.js --source-map angular-interpolate.min.js.map",
     "test": "./node_modules/karma/bin/karma start karma.conf.js"
   },
   "repository": {
