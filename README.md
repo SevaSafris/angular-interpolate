@@ -1,11 +1,8 @@
 # angular-interpolate
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt) [![npm version](https://badge.fury.io/js/angular-interpolate.svg)](http://badge.fury.io/js/angular-interpolate)
 
-This Angular module is a light-weight interpolator that replaces delimited keys in a string
-with values from a properties map. This module was created as a simple alternative for Angular"s
-$interpolate provider. A common use of this tool is for a template interpolation use-case that
-does not require $parse, $interpolate, or $compile.
+This Angular module is a light-weight interpolator that replaces delimited keys in a string with values from a properties map. This module was created as a simple alternative for Angular's `$interpolate` provider. A common use of this tool is for a template interpolation use-case that does not require `$parse`, `$interpolate`, or `$compile`.
 
 _[Comments and Issues](https://github.com/SevaSafris/angular-interpolate/issues)_
 

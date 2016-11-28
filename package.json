@@ -1,6 +1,6 @@
 {
   "name": "angular-interpolate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Recursively interpolate variables in strings.",
   "main": "angular-interpolate.js",
   "scripts": {
