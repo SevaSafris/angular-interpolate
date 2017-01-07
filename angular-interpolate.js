@@ -61,7 +61,7 @@ angular.module("angular-interpolate", [
     return function (open, close) {
       for (var property in object)
         if (object.hasOwnProperty(property))
-          object[property] = interpolateString(object[property])(object, open, close);
+          object[property] = typeof (object[property]) !== "object" ? interpolateString(object[property])(object, open, close) : interpolateObject(object[property])(open, close);
 
       return object;
     };
