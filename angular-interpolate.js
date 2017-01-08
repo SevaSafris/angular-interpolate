@@ -45,7 +45,7 @@ angular.module("angular-interpolate", [
 
   function interpolateString(string) {
     return function (properties, open, close) {
-      if (!properties || Object.keys(properties).length === 0)
+      if (typeof (string) !== "string" || !properties || Object.keys(properties).length === 0)
         return string;
 
       var lines = string.split(/(\r\n)|(\n)|(\r)/);

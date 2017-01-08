@@ -5,7 +5,7 @@
     "Seva Safris <seva@safris.org>"
   ],
   "description": "Recursively interpolate variables in strings.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "angular-interpolate.js",
   "keywords": [
     "angular",
