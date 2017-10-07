@@ -1,5 +1,7 @@
-<img src="http://safris.org/logo.png" align="right"/>
-## angular-interpolate<br>[![CohesionFirst](https://img.shields.io/badge/CohesionFirst%E2%84%A2--blue.svg)](https://cohesionfirst.com/) [![JavaCommons](https://img.shields.io/badge/angular-js-red.svg)](https://cohesionfirst.com/) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt) [![npm version](https://badge.fury.io/js/angular-interpolate.svg)](http://badge.fury.io/js/angular-interpolate)
+<img src="http://safris.org/logo.png" align="right">
+
+## angular-interpolate
+[![CohesionFirst](https://img.shields.io/badge/CohesionFirst%E2%84%A2--blue.svg)](https://cohesionfirst.com/) [![JavaCommons](https://img.shields.io/badge/angular-js-red.svg)](https://cohesionfirst.com/) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt) [![npm version](https://badge.fury.io/js/angular-interpolate.svg)](http://badge.fury.io/js/angular-interpolate)
 
 This Angular module is a light-weight interpolator that replaces delimited keys in a string with values from a properties map. This module was created as a simple alternative for Angular's `$interpolate` provider. A common use of this tool is for a template interpolation use-case that does not require `$parse`, `$interpolate`, or `$compile`.
 
